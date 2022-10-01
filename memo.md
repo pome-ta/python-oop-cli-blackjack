@@ -16,7 +16,6 @@
 
 `card.py` から書いていく。依存がないので
 
-
 [PHPの矢印の意味　アロー演算子「->」とダブルアロー演算子「=>」　 - Qiita](https://qiita.com/keitean/items/5ea1d2e25a32bb93e07b)
 
 辞書で可？

@@ -5,4 +5,4 @@
 
 [ryamate/php-oop-cli-blackjack: This is a console game for two players, the dealer and the player.](https://github.com/ryamate/php-oop-cli-blackjack)
 
-写経
+PHP の内容をPython で書く
