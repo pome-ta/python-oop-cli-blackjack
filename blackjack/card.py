@@ -18,10 +18,16 @@ class Card:
     __suits = ['スペード', 'ハート', 'ダイヤ', 'クラブ', ]
 
     def create_new_deck(self) -> list:
-        deck = []
-        for suit in self.__suits:
-            for score, num in self.__CARD_SCORE.items():
-                deck.append({'suit': suit, 'num': num, 'score': score})
+        # deck = []
+        # for suit in self.__suits:
+        #     for score, num in self.__CARD_SCORE.items():
+        #         deck.append({'suit': suit, 'num': num, 'score': score})
+        # return deck
+        deck = [{
+            'suit': suit,
+            'num': num,
+            'score': score,
+        } for score, num in self.__CARD_SCORE.items() for suit in self.__suits]
         return deck
 
 
