@@ -35,6 +35,7 @@ class Card:
             'num': num,
             'score': score,
         } for score, num in self.__CARD_SCORE.items() for suit in self.__suits]
+        
         return deck
 
 
