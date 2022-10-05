@@ -1,5 +1,5 @@
 from random import shuffle
-from card import Card
+from .card import Card
 
 
 class Deck:
@@ -30,3 +30,4 @@ if __name__ == '__main__':
 
     deck = Deck()
     pprint(deck.get_deck())
+    
